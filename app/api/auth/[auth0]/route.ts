@@ -24,10 +24,14 @@ export const GET = async (req: NextRequest) => {
           if (email) {
             await prisma.user.upsert({
               where: { email },
-              update: { name: name || null },
+              update: { 
+                name: name || null,
+                lastLogin: new Date(),
+              },
               create: {
                 email,
                 name: name || null,
+                lastLogin: new Date(),
               },
             });
             
