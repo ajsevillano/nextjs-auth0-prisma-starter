@@ -16,9 +16,11 @@ export default async function Home() {
             Logout
           </a>
         )}
+      {session && (
         <a href="/dashboard" className="bg-green-500 text-white px-6 py-3 rounded text-lg">
           Go to Dashboard
         </a>
+      )}
       </div>
     </div>
   );
