@@ -5,7 +5,7 @@ export default async function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <h1 className="text-4xl font-bold mb-8">Welcome to BookGift</h1>
+      <h1 className="text-4xl font-bold mb-8">Next.js Auth0 Starter</h1>
       <div className="flex gap-4">
         {!session ? (
           <a href="/api/auth/login" className="bg-blue-500 text-white px-6 py-3 rounded text-lg">

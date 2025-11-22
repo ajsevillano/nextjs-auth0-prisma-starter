@@ -1,6 +1,6 @@
-# BookGift
+# Next.js Auth0 Prisma Starter
 
-BookGift is a Next.js application designed to manage book gifts. It features secure authentication using Auth0 and persists data using a local MySQL database with Prisma ORM.
+This is a robust starter template for building Next.js applications with secure authentication and database connectivity. It comes pre-configured with Auth0 for authentication and Prisma ORM with MySQL for data management.
 
 ## 🚀 Tech Stack
 
